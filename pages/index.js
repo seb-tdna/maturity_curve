@@ -19,19 +19,19 @@ export default function Home() {
     <div style={{ display: 'flex', alignItems: "center", height: "100vh" }}>
       <div className={styles.wrapper}>
         <div className={styles.img_cont}>
-          <img src="/images/informational.jpg" />
+          <img src="/images/Informational.jpeg" />
         </div>
 
         <div className={styles.img_cont}>
-          <img src="/images/automation.png" />
+          <img src="/images/Digitalized.jpeg" />
         </div>
 
         <div className={styles.img_cont}>
-          <img src="/images/integrated.jpg" />
+          <img src="/images/Integrated.jpeg" />
         </div>
 
         <div className={styles.img_cont}>
-          <img src="/images/automated1.jpg" />
+          <img src="/images/Automated.jpeg" />
         </div>
         {renderComponent()}
       </div>
