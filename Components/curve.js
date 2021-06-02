@@ -22,7 +22,7 @@ export default function Curve(props) {
     const regions = [
         { X: 80, Y: 475, W: 145, H: 90, name: "Informational" },
         { X: 385, Y: 425, W: 125, H: 90, name: "Digitalized" },
-        { X: 690, Y: 220, W: 118, H: 90, name: "Integrated" },
+        { X: 700, Y: 220, W: 118, H: 90, name: "Integrated" },
         { X: 985, Y: 70, W: 120, H: 90, name: "Automated" },
     ]
 
@@ -36,7 +36,7 @@ export default function Curve(props) {
 
         var gradient = ctx.createLinearGradient(0, 0, 1200, 0)
         gradient.addColorStop("0", "#3366CC")
-        gradient.addColorStop("0.9", "#6666CC")
+        gradient.addColorStop("0.5", "#6666CC")
         gradient.addColorStop("1.0", "#6633CC")
 
         ctx.strokeStyle = gradient
