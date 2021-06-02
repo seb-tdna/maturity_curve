@@ -38,9 +38,10 @@
   margin: 0px auto;
 }
 .listWrapper {
-  border: 5px solid #377cbf;
-  max-width: 100%;
+  border: 3px solid #377cbf;
+  max-width: 70%;
   min-height: 50%;
+  text-align: center;
   padding: 5px 0;
   display: flex;
   flex-direction: column;
