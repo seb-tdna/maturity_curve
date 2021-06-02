@@ -41,9 +41,9 @@
   border: 3px solid #377cbf;
   max-width: 70%;
   min-height: 50%;
-  text-align: center;
   padding: 5px 0;
-  display: flex;
+  display: center;
+  text-align: center;
   flex-direction: column;
 }
 .wrapper ul {
