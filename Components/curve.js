@@ -49,7 +49,7 @@ export default function Curve(props) {
     }
 
     function clearCircle(ctx, point, text, color) {
-        const radius = 30;
+        const radius = 15;
         const { X, Y } = point;
         ctx.lineWidth = 13;
         ctx.save();
