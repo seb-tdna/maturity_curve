@@ -1,10 +1,10 @@
 .back {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 55px;
 }
 .back::before {
-  position: fixed;
+  position: absolute;
   top: -4px;
   left: -40px;
   display: inline-block;
