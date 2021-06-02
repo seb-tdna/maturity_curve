@@ -28,16 +28,16 @@ export default function Curve(props) {
 
     function drawShape(ctx) {
         ctx.beginPath()
-        ctx.lineWidth = 5
+        ctx.lineWidth = 6
         ctx.lineCap = 'round'
         ctx.moveTo(points[0].X, points[0].Y)
         curveTo(ctx, handles[0], handles[1], points[1])
         curveTo(ctx, handles[2], handles[3], points[2])
 
         var gradient = ctx.createLinearGradient(0, 0, 1200, 0)
-        gradient.addColorStop("0", "#4A7BB9")
-        gradient.addColorStop("0.9", "#5F3DC4")
-        gradient.addColorStop("1.0", "#603FC4")
+        gradient.addColorStop("0", "#3366CC")
+        gradient.addColorStop("0.9", "#6666CC")
+        gradient.addColorStop("1.0", "#6633CC")
 
         ctx.strokeStyle = gradient
         ctx.stroke()
@@ -51,7 +51,7 @@ export default function Curve(props) {
     function clearCircle(ctx, point, text, color) {
         const radius = 20;
         const { X, Y } = point;
-        ctx.lineWidth = 13;
+        ctx.lineWidth = 10;
         ctx.save();
         ctx.beginPath();
         ctx.arc(X, Y, radius, 0, 2 * Math.PI, true);
