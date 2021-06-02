@@ -22,13 +22,13 @@ export default function Curve(props) {
     const regions = [
         { X: 80, Y: 475, W: 145, H: 90, name: "Informational" },
         { X: 385, Y: 425, W: 125, H: 90, name: "Digitalized" },
-        { X: 690, Y: 200, W: 118, H: 90, name: "Integrated" },
+        { X: 690, Y: 220, W: 118, H: 90, name: "Integrated" },
         { X: 985, Y: 70, W: 120, H: 90, name: "Automated" },
     ]
 
     function drawShape(ctx) {
         ctx.beginPath()
-        ctx.lineWidth = 8
+        ctx.lineWidth = 5
         ctx.lineCap = 'round'
         ctx.moveTo(points[0].X, points[0].Y)
         curveTo(ctx, handles[0], handles[1], points[1])
@@ -42,10 +42,10 @@ export default function Curve(props) {
         ctx.strokeStyle = gradient
         ctx.stroke()
 
-        clearCircle(ctx, circles[0], "Informational", '#4A7BB9')
-        clearCircle(ctx, circles[1], "Digitalized", "#4A7BB9")
-        clearCircle(ctx, circles[2], "Integrated", "#603FC4")
-        clearCircle(ctx, circles[3], "Automated", "#603FC4")
+        clearCircle(ctx, circles[0], "Informational", '#3366CC')
+        clearCircle(ctx, circles[1], "Digitalized", "#6666CC")
+        clearCircle(ctx, circles[2], "Integrated", "#6666CC")
+        clearCircle(ctx, circles[3], "Automated", "#6633CC")
     }
 
     function clearCircle(ctx, point, text, color) {
