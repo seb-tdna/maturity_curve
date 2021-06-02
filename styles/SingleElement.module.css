@@ -39,7 +39,7 @@
 }
 .listWrapper {
   border: 3px solid #377cbf;
-  max-width: 70%;
+  max-width: 100%;
   min-height: 50%;
   padding: 5px 0;
   display: flex;
@@ -53,12 +53,11 @@
   flex-direction: column;
 }
 .wrapper ul > li {
-  text-align: left;
+  text-align: center;
   margin: 4px 0px;
   flex: 1;
 }
 .descriptionContainer {
   display: flex;
-  text-align: center;
   flex-direction: column;
 }
