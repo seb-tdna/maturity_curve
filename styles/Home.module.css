@@ -1,0 +1,82 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cureSlider{
+  display: flex;
+}
+.cureSlider>div>img{
+  width: 100%;
+}
+.singleElement{
+  background: linear-gradient(to bottom right, #00a5fb, transparent  ),
+  url("/images/1.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 200px;
+}
+.singleElement>div{
+  width: 70%;
+  margin: auto;
+}
+.backKey{
+  position: absolute;
+  left: 18%;
+}
+.topDiv{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.buttomDiv{
+  margin: auto;
+  width: fit-content;
+  border: 3px solid #4e1567;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+/* .singleElement::after, .singleElement::before{
+  content: "";
+  width: 20%;
+} */
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
