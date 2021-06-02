@@ -22,7 +22,7 @@ export default function Curve(props) {
     const regions = [
         { X: 80, Y: 475, W: 145, H: 90, name: "Informational" },
         { X: 385, Y: 425, W: 125, H: 90, name: "Digitalized" },
-        { X: 690, Y: 220, W: 118, H: 90, name: "Integrated" },
+        { X: 690, Y: 200, W: 118, H: 90, name: "Integrated" },
         { X: 985, Y: 70, W: 120, H: 90, name: "Automated" },
     ]
 
