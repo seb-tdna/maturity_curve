@@ -20,7 +20,7 @@ export default function Curve(props) {
         { X: 1050, Y: 100 }
     ]
     const regions = [
-        { X: 80, Y: 475, W: 145, H: 90, name: "xyz" },
+        { X: 80, Y: 475, W: 145, H: 90, name: "Informational" },
         { X: 385, Y: 425, W: 125, H: 90, name: "Digitalized" },
         { X: 700, Y: 220, W: 118, H: 90, name: "Integrated" },
         { X: 985, Y: 70, W: 120, H: 90, name: "Automated" },
@@ -42,7 +42,7 @@ export default function Curve(props) {
         ctx.strokeStyle = gradient
         ctx.stroke()
 
-        clearCircle(ctx, circles[0], "Informational", '#3366CC')
+        clearCircle(ctx, circles[0], "xyz", '#3366CC')
         clearCircle(ctx, circles[1], "Digitalized", "#6666CC")
         clearCircle(ctx, circles[2], "Integrated", "#6666CC")
         clearCircle(ctx, circles[3], "Automated", "#6633CC")
