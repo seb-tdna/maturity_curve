@@ -22,14 +22,17 @@ export default function Home() {
           <img src="/images/Informational.jpeg" />
         </div>
 
+      <div className={styles.wrapper1}>
         <div className={styles.img_cont}>
           <img src="/images/Digitalized.jpeg" />
         </div>
 
+      <div className={styles.wrapper2}>
         <div className={styles.img_cont}>
           <img src="/images/Integrated.jpeg" />
         </div>
 
+      <div className={styles.wrapper3}>
         <div className={styles.img_cont}>
           <img src="/images/Automated.jpeg" />
         </div>
