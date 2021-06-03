@@ -1,18 +1,18 @@
 .back {
-  position: relative;
-  top: 10px;
-  left: 20px;
+  position: absolute;
+  top: 20px;
+  left: 55px;
 }
 .back::before {
-  position: relative;
-  top: -2px; 
-  left: -10px;
-  display: inline-block;
-  content: "";
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 3px solid #377cbf;
+  position: absolute;
+  top: -2px; 
+  left: -40px;
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #377cbf;
 }
 .wrapper {
   position: relative;
