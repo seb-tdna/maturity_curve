@@ -74,18 +74,18 @@
   font-size: 1.5vw;
   font-weight: 100;
 }
-.wrapper1 > div {
+.wrapper > div {
   width: 100%;
   height: 100%;
   background: #06448396;
   margin: 0px;
   padding: 20px;
 }
-.wrapper1 > div > div {
+.wrapper > div > div {
   max-width: 80%;
   margin: 0px auto;
 }
-.listWrapper1 {
+.listWrapper {
   border: 4px solid #377cbf;
   max-width: 100%;
   min-height: 50%;
@@ -93,14 +93,14 @@
   display: flex;
   flex-direction: column;
 }
-.wrapper1 ul {
+.wrapper ul {
   height: 100%;
   margin: 0px;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
-.wrapper1 ul > li {
+.wrapper ul > li {
   text-align: center;
   margin: 4px 0px;
   flex: 1;
@@ -122,18 +122,18 @@
   font-size: 1.5vw;
   font-weight: 100;
 }
-.wrapper2 > div {
+.wrapper > div {
   width: 100%;
   height: 100%;
   background: #06448396;
   margin: 0px;
   padding: 20px;
 }
-.wrapper2 > div > div {
+.wrapper > div > div {
   max-width: 80%;
   margin: 0px auto;
 }
-.listWrapper2 {
+.listWrapper {
   border: 4px solid #377cbf;
   max-width: 100%;
   min-height: 50%;
@@ -141,14 +141,14 @@
   display: flex;
   flex-direction: column;
 }
-.wrapper2 ul {
+.wrapper ul {
   height: 100%;
   margin: 0px;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
-.wrapper2 ul > li {
+.wrapper ul > li {
   text-align: center;
   margin: 4px 0px;
   flex: 1;
@@ -170,18 +170,18 @@
   font-size: 1.5vw;
   font-weight: 100;
 }
-.wrapper3 > div {
+.wrapper > div {
   width: 100%;
   height: 100%;
   background: #06448396;
   margin: 0px;
   padding: 20px;
 }
-.wrapper3 > div > div {
+.wrapper > div > div {
   max-width: 80%;
   margin: 0px auto;
 }
-.listWrapper3 {
+.listWrapper {
   border: 4px solid #377cbf;
   max-width: 100%;
   min-height: 50%;
@@ -189,14 +189,14 @@
   display: flex;
   flex-direction: column;
 }
-.wrapper3 ul {
+.wrapper ul {
   height: 100%;
   margin: 0px;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
-.wrapper3 ul > li {
+.wrapper ul > li {
   text-align: center;
   margin: 4px 0px;
   flex: 1;
