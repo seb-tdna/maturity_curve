@@ -6,11 +6,11 @@ import SingleElement from '../Components/singleElement';
 export default function Home() {
   const [selectedComponent, setSelectedComponent] = useState("unset")
   function renderComponent() {
- /*   if (selectedComponent === "unset") /// we can add other conditions
-      return (<span className={styles.overlay}><Curve onClick={handleClick} /></span>)
-    else
- */
-    return (<div className={styles.overlay}><SingleElement onBack={e => setSelectedComponent("unset")} selectedComponent={selectedComponent} /></div>)
+///    if (selectedComponent === "unset") /// we can add other conditions
+    return (<span className={styles.overlay}><Curve onClick={handleClick} /></span>)
+/*    else
+      return (<div className={styles.overlay}><SingleElement onBack={e => setSelectedComponent("unset")} selectedComponent={selectedComponent} /></div>)
+*/
   }
   function handleClick(e) {
     console.log(e.name)
