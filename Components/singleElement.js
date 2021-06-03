@@ -28,25 +28,25 @@ const COMPONENT_DATA = {
     Informational: {
         title: 'Informational',
         subTitle: 'Level One',
-        description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-        list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
+        description: "Small factions of individuals are using data in isolated groups to inform ad-hoc decision making, but core operational decisions are made based on experience",
+        list: ['Experiential-driven decision culture', 'Non-continuous hierarchical data flow', "Disparate technologies & applications", "Manual data processing & feedback"]
     },
     Integrated: {
         title: 'Integrated',
         subTitle: 'Level Three',
-        description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-        list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
+        description: "Decisions from shop floor to senior leadership are made based on data-driven information through self-service portals",
+        list: ['Information-influenced decision culture', 'Cohesive hierarchical data roll-ups', "Seamlessly integrated tech & apps", "Systemized data processing & ETL"]
     },
     Digitalized: {
         title: 'Digitalized',
         subTitle: 'Level Two',
-        description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        description: "Leadership has started to adopt digital decision making as the new norm with a central source of truth established for some core metrics. Culture still hampers site-wide adoption",
         list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
     },
     Automated: {
         title: 'Automated',
         subTitle: 'Level Four',
-        description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        description: "Optimized operational decisions are made automatically through digital twins with outputs driving shiftily decision making to maximize site-wide performance",
         list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
     }
 }
