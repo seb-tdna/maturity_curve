@@ -27,25 +27,25 @@ export default function SingleElement(props) {
 const COMPONENT_DATA = {
     Informational: {
         title: 'Informational',
-        subTitle: 'level two',
+        subTitle: 'Level One',
         description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
         list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
     },
     Integrated: {
         title: 'Integrated',
-        subTitle: 'level two',
+        subTitle: 'Level Three',
         description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
         list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
     },
     Digitalized: {
         title: 'Digitalized',
-        subTitle: 'level two',
+        subTitle: 'Level Two',
         description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
         list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
     },
     Automated: {
         title: 'Automated',
-        subTitle: 'level two',
+        subTitle: 'Level Four',
         description: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
         list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
     }
