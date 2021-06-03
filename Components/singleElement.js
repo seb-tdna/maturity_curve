@@ -41,12 +41,12 @@ const COMPONENT_DATA = {
         title: 'Digitalized',
         subTitle: 'Level Two',
         description: "Leadership has started to adopt digital decision making as the new norm with a central source of truth established for some core metrics. Culture still hampers site-wide adoption",
-        list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
+        list: ['Data-influenced decision culture', 'Continuous hierarchical data flows', "Groupings of integrated technologies & applications", 'Data-capable workforce mixed throughout organization', "Mechanized data process"]
     },
     Automated: {
         title: 'Automated',
         subTitle: 'Level Four',
         description: "Optimized operational decisions are made automatically through digital twins with outputs driving shiftily decision making to maximize site-wide performance",
-        list: ['Data influenced decition culture', 'Data influenced decition culture', "Data influenced decition culture"]
+        list: ['Information-influenced decision culture', 'Ecosystem of applications is utilized to drive improvements', "Workforce leveraging data to drive root cause analysis", 'System model validation and improvement cycles executed regularly by data-capable workforce', 'Central source of truth for all KPIs exists', "Decision making is based on leading indicators"]
     }
 }
