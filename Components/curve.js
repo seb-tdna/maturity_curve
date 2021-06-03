@@ -42,7 +42,7 @@ export default function Curve(props) {
         ctx.strokeStyle = gradient
         ctx.stroke()
 
-        clearCircle(ctx, circles[0], "xyz", '#3366CC')
+        clearCircle(ctx, circles[0], "Informational", '#3366CC')
         clearCircle(ctx, circles[1], "Digitalized", "#6666CC")
         clearCircle(ctx, circles[2], "Integrated", "#6666CC")
         clearCircle(ctx, circles[3], "Automated", "#6633CC")
@@ -64,7 +64,7 @@ export default function Curve(props) {
         ctx.stroke()
         ctx.font = "300 22px arial"
         ctx.beginPath()
-        ctx.fillText(text, point.X - (ctx.measureText(text).width / 2), point.Y + 60)
+        ctx.fillText(text, point.X - (ctx.measureText(text).width / 2), point.X + 60)
         ctx.stroke()
     }
 
